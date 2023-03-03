@@ -1,0 +1,9 @@
+# coding=UTF-8
+#基础设置
+
+
+-
+  #单个修改存货价格
+  customerName: 存货价格设置03
+  legend: 单个修改存货价格成功
+  message: 保存成功

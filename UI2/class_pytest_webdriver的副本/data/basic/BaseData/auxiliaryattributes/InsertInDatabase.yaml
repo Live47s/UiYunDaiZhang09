@@ -1,0 +1,43 @@
+#coding=UTF-8
+#登录
+- login:
+    url: http://enterprise.91yikuaiji.com:8756
+    login1: //*[@id="login"]/div[2]/div[1]/div[2]/span[1]
+    company: //*[@id="login-account"]/form/div[1]/div/div/input
+    ustext: //*[@id="login-account"]/form/div[2]/div/div/input
+    pwdtext: //*[@id="login-account"]/form/div[3]/div/div/input
+    lgbttext: //*[@id="login-account"]/div[2]/button/span
+#基础设置
+- BasicSetting:
+   url: http://enterprise.91yikuaiji.com:8756
+   stockmanagement: //*[@id="app"]/div/section/section/div[1]/div[1]/ul/div[2]/li/div/span
+#基础资料
+   basicsetting : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div/div/div/span
+   basedata : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div
+#   basedata : //*[@id="app"]/div/section/section/div[1]/div[1]/ul/div[8]/li/ul/li/ul/li[1]/span
+   addnewcustomer : //*[@id="AuxiliaryAttributes"]/div[1]/div[2]/button[2]/span
+#   辅助属性分类名称
+   newcustomername : body > div.el-dialog__wrapper > div > div.el-dialog__body > div:nth-child(2) > div.el-input > input
+   newcustomername2 : /html/body/div[5]/div/div[2]/div[2]/div[2]/input
+   savecustomer : /html/body/div[3]/div/div[3]/span/button[2]/span
+   AuxiliaryAttributes : tab-AuxiliaryAttributes
+#   辅助属性分类
+   AuxiliaryAttributesclassify : body > div.el-dialog__wrapper > div > div.el-dialog__body > div:nth-child(3) > div.el-select > div.el-input.el-input--suffix > input
+#   新增重复的属性
+#   尺寸
+   choixce : /html/body/div[5]/div[1]/div[1]/ul/li[2]
+#   取消（弹窗）
+   cancel: //*[@id="AuxiliaryAttributes"]/div[3]/div/div[3]/button[2]/span
+   changecustomer : //*[@id="AuxiliaryAttributes"]/div[2]/div/div[2]/div/div[5]/div[2]/table/tbody/tr/td[5]/div/div/div/i[1]
+#   修改名称的确认按钮
+   savename2 : body > div.el-dialog__wrapper > div > div.el-dialog__footer > span > button.el-button.clearBtn.el-button--primary.is-round > span
+   seachcustomer : //*[@id="AuxiliaryAttributes"]/div[1]/div[1]/div/input
+   seach2 : //*[@id="AuxiliaryAttributes"]/div[1]/div[1]/button/span
+   getcustomername : //*[@id="AuxiliaryAttributes"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[2]/div
+   getcustomerPage : //*[@id="AuxiliaryAttributes"]/div[2]/div[2]/div/span[1]
+   deletecustomer : //*[@id="AuxiliaryAttributes"]/div[2]/div/div[2]/div/div[5]/div[2]/table/tbody/tr/td[5]/div/div/div/i[2]
+   deleteparmisnull : //*[@id="AuxiliaryAttributes"]/div[2]/div/div[2]/div/div[3]/div/span
+   dodelete : //*[@id="AuxiliaryAttributes"]/div[5]/div/div[3]/button[1]/span
+   businessadministration : //*[@id="app"]/div/section/section/div[1]/ul/div[1]/li/div/i
+   refresh : //*[@id="app"]/div/section/section/div[2]/div[1]/div/div/div[2]/div[1]/i
+   test111 : //*[@id="AuxiliaryAttributes"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr[1]/td[3]/div

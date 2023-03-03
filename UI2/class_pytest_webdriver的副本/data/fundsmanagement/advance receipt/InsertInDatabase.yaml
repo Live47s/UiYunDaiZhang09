@@ -1,0 +1,18 @@
+#coding=UTF-8
+
+#基础设置
+- FundsManagement:
+   customer : //*[@id="advanceReceipt"]/div[2]/div[2]/div/div/input
+   customer1 : /html/body/div[3]/div[1]/div[1]/ul/li[6]/span
+   date : //*[@id="advanceReceipt"]/div[2]/div[3]/div/input
+   account : //*[@id="advanceReceipt"]/div[2]/div[4]/div/div/input
+   account1 : /html/body/div[5]/div[1]/div[1]/ul/li[5]/span
+   type : //*[@id="advanceReceipt"]/div[3]/div[1]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[3]/div/span
+   money1 : //*[@id="advanceReceipt"]/div[3]/div[1]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[4]
+   money : //*[@id="advanceReceipt"]/div[3]/div[1]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[4]/div/div/input
+   save : //*[@id="advanceReceipt"]/div[1]/div[2]/div/button[1]/span
+   last : //*[@id="advanceReceipt"]/div[1]/div[1]/div/button[4]/span/span
+   save1 : //*[@id="advanceReceipt"]/div[1]/div[2]/div/button[1]/span
+   delete : //*[@id="advanceReceipt"]/div[1]/div[2]/div/button[5]/span
+   dodolete : //*[@id="advanceReceipt"]/div[6]/div/div[3]/span/button[2]/span
+   resh : //*[@id="app"]/div/section/section/div[2]/div[1]/div/div/div[2]/div[1]/i

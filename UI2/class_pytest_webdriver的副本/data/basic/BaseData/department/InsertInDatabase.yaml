@@ -1,0 +1,29 @@
+#coding=UTF-8
+
+#基础设置
+- BasicSetting:
+   url: http://enterprise.91yikuaiji.com:8756
+   stockmanagement: //*[@id="app"]/div/section/section/div[1]/div[1]/ul/div[2]/li/div/span
+#基础资料
+   basicsetting : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div/div/div/span
+   basedata : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div
+#   basedata : //*[@id="app"]/div/section/section/div[1]/div[1]/ul/div[8]/li/ul/li/ul/li[1]/span
+   addnewcustomer : //*[@id="depotMain"]/div[1]/div[2]/button[3]/span
+   newcustomername : //*[@id="depotMain"]/div[3]/div/div[2]/div[1]/div[2]/div/input
+   savecustomer : //*[@id="depotMain"]/div[3]/div/div[3]/button[1]/span
+   department : tab-departmentMain
+#   取消（弹窗）
+   cancel: //*[@id="depotMain"]/div[3]/div/div[3]/button[2]/span
+   changecustomer : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[6]/div/div/i[1]
+   seachcustomer : //*[@id="depotMain"]/div[1]/div[1]/div/input
+   seach2 : //*[@id="depotMain"]/div[1]/div[1]/button/span
+   getcustomername : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[2]/div
+   getcustomerPage : //*[@id="depotMain"]/div[2]/div[2]/div/span[1]
+   deletecustomer : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[6]/div/div/i[2]
+   deleteparmisnull : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/div/span
+   dodelete : //*[@id="depotMain"]/div[4]/div/div[3]/button[1]/span
+   businessadministration : //*[@id="app"]/div/section/section/div[1]/ul/div[1]/li/div/i
+   refresh : //*[@id="app"]/div/section/section/div[2]/div[1]/div/div/div[2]/div[1]/i
+   test111 : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr[1]/td[3]/div
+
+

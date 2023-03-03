@@ -1,0 +1,15 @@
+# coding=UTF-8
+#基础设置
+
+
+-
+#增加存货
+  #增加存货成功
+  customerName: UI自动化新增存货001
+  legend: 增加存货成功
+  message: 请求成功
+-
+  #新增存货失败，用户名重复
+  customerName: 名称重复存货
+  legend: 增加存货失败，用户名重复
+  message: 已存在相同名称的存货

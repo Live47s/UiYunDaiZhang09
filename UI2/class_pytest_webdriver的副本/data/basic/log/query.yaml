@@ -1,0 +1,18 @@
+# coding=UTF-8
+#基础设置
+
+
+-
+  customerName: "修改存货,编号是:0013"
+  legend: 按操作内容查询日志
+  message: 共 3 条
+-
+  customerName: 常规查询
+  legend: 按指定时间区间查询
+  message: 共 65 条
+-
+  #批量模糊查询
+  customerName: "1999-12-01"
+  legend: 按无效时间查询
+#  已包含查询信息总条数断言
+  message: 时间间隔不能超过90天!

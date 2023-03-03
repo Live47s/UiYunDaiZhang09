@@ -1,0 +1,33 @@
+#coding=UTF-8
+#TODO
+#基础设置
+- BasicSetting:
+   url: http://enterprise.91yikuaiji.com:8756
+   stockmanagement: //*[@id="app"]/div/section/section/div[1]/div[1]/ul/div[2]/li/div/span
+#基础资料
+   basicsetting : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div/div/div/span
+   basedata : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div
+#   新增自定义页面按钮
+   Addplus : Addplus
+#   新增自定义输入名称定位
+   userdefinedname : //*[@id="Newcategory"]/div/div/div[2]/div/div/input
+#  确认新增自定义按钮
+   addNewcategory : //*[@id="Newcategory"]/div/div/div[3]/span/button[2]/span
+#   新增按钮
+   addnewcustomer : //*[@id="clientMain"]/div[1]/div[2]/button[1]/span
+#   输入编号
+   newcustomercode : //*[@id="clientMain"]/div[3]/div/div/div[2]/div[1]/div[2]/input
+#   名称输入框
+   newcustomername : //*[@id="clientMain"]/div[3]/div/div/div[2]/div[2]/div[2]/input
+   savecustomer : //*[@id="clientMain"]/div[3]/div/div/div[3]/span/button[2]/span
+#   取消（弹窗）
+   cancel: //*[@id="clientMain"]/div[3]/div/div[3]/button[2]/span
+   changecustomer : //*[@id="clientMain"]/div[2]/div[1]/div[2]/div/div[4]/div[2]/table/tbody/tr/td[11]/div/div/i[1]
+   seachcustomer : //*[@id="clientMain"]/div[1]/div[1]/div/input
+   seach2 : //*[@id="clientMain"]/div[1]/div[1]/button/span
+   getcustomername : //*[@id="clientMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[2]/div
+   getcustomerPage : //*[@id="clientMain"]/div[2]/div[2]/div/span[1]
+   deletecustomer : //*[@id="clientMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[5]/div/div/i[2]
+   deleteparmisnull : //*[@id="clientMain"]/div[2]/div[1]/div[2]/div/div[3]/div/span
+   dodelete : //*[@id="clientMain"]/div[4]/div/div[3]/button[1]/span
+   businessadministration : //*[@id="app"]/div/section/section/div[1]/ul/div[1]/li/div/i

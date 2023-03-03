@@ -1,0 +1,13 @@
+# coding=UTF-8
+#µÇÂ¼
+- login:
+    url: http://enterprise.91yikuaiji.com:8756
+    loginbow: //*[@id="login"]/div[2]/div[1]/div[2]/span[1]
+    company: //*[@id="login-account"]/form/div[1]/div/div/input
+    ustext: //*[@id="login-account"]/form/div[2]/div/div/input
+    pwdtext: //*[@id="login-account"]/form/div[3]/div/div/input
+    lgbttext: //*[@id="login-account"]/div[2]/button/span
+    navContent: //*[@id="app"]/div/section/section/div[1]/ul/div[1]/li/div/span
+    seach: //*[@id="cancelAccountContainer"]/div[1]/div/div[1]/div/input
+    seach1: //*[@id="cancelAccountContainer"]/div[1]/div/div[1]/div/div/button/i
+    openSelltext: //*[@id="cancelAccountContainer"]/div[2]/div[1]/div[1]/ul/li[3]/button/span/span

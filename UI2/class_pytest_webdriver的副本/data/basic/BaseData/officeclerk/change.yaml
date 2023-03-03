@@ -1,0 +1,15 @@
+# coding=UTF-8
+#基础设置
+#TODO
+
+-
+#修改人员名称
+  #修改人员成功
+  customerName: 修改人员数据
+  legend: 修改人员成功
+  message: 请求成功
+-
+  #修改人员失败，名称重复
+  customerName: 名称重复人员
+  legend: 修改人员失败，人员重复
+  message:

@@ -1,0 +1,39 @@
+#coding=UTF-8
+#登录
+- login:
+    url: http://enterprise.91yikuaiji.com:8756
+    login1: //*[@id="login"]/div[2]/div[1]/div[2]/span[1]
+    company: //*[@id="login-account"]/form/div[1]/div/div/input
+    ustext: //*[@id="login-account"]/form/div[2]/div/div/input
+    pwdtext: //*[@id="login-account"]/form/div[3]/div/div/input
+    lgbttext: //*[@id="login-account"]/div[2]/button/span
+#基础设置
+- BasicSetting:
+   url: http://enterprise.91yikuaiji.com:8756
+   stockmanagement: //*[@id="app"]/div/section/section/div[1]/div[1]/ul/div[2]/li/div/span
+#基础资料
+   basicsetting : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div/div/div/span
+   basedata : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div
+#供应商
+   Supplier : tab-supplierMain
+#   basedata : //*[@id="app"]/div/section/section/div[1]/div[1]/ul/div[8]/li/ul/li/ul/li[1]/span
+#   新增按钮
+   addnewcustomer : //*[@id="supplierMain"]/div[1]/div[2]/button[3]/span
+#   新增名称输入位置
+   newcustomername : //*[@id="supplierMain"]/div[3]/div/div[2]/div[1]/div[2]/div/input
+#   保存
+   savecustomer : //*[@id="supplierMain"]/div[3]/div/div[3]/button[1]/span
+#   修改，第一条信息
+   changecustomer : //*[@id="supplierMain"]/div[2]/div[1]/div[2]/div/div[4]/div[2]/table/tbody/tr/td[11]/div/div/i[1]
+#   搜索输入框位置
+   seachcustomer : //*[@id="supplierMain"]/div[1]/div[1]/div/input
+#   搜索按钮
+   seach2 : //*[@id="supplierMain"]/div[1]/div[1]/button/span
+   getcustomername : //*[@id="supplierMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[2]/div
+   getcustomerPage : //*[@id="supplierMain"]/div[2]/div[2]/div/span[1]
+   deletecustomer : //*[@id="supplierMain"]/div[2]/div[1]/div[2]/div/div[4]/div[2]/table/tbody/tr/td[11]/div/div/i[2]
+   deleteparmisnull : //*[@id="supplierMain"]/div[2]/div[1]/div[2]/div/div[3]/div/span
+   dodelete : //*[@id="supplierMain"]/div[4]/div/div[3]/button[1]/span
+   businessadministration : //*[@id="app"]/div/section/section/div[1]/ul/div[1]/li/div/i
+   refresh : //*[@id="app"]/div/section/section/div[2]/div[1]/div/div/div[2]/div[1]/i
+   test111 : //*[@id="supplierMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr[1]/td[3]/div

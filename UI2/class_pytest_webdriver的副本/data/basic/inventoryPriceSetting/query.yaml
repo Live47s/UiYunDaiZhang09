@@ -1,0 +1,18 @@
+# coding=UTF-8
+#基础设置
+
+-
+  #模糊查询单个存货价格
+  customerName: 设置01
+  legend: 模糊查询单个存货成功
+  message: '0011'
+-
+  #精准查询单个存货价格
+  customerName: 存货价格设置01
+  legend: 精准查询单个存货成功
+  message: '0011'
+-
+  #批量模糊查询存货价格
+  customerName: 存货价格设置
+  legend: 批量模糊查询成功
+  message: 共 3 条

@@ -1,0 +1,42 @@
+#coding=UTF-8
+#TODO
+#基础设置
+- BasicSetting:
+   url: http://enterprise.91yikuaiji.com:8756
+   stockmanagement: //*[@id="app"]/div/section/section/div[1]/div[1]/ul/div[2]/li/div/span
+#基础资料
+   basicsetting : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div/div/div/span
+   basedata : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div
+#   人员按钮
+   officeclerk : tab-officeClerkMain
+#   新增按钮
+   addnewcustomer : //*[@id="depotMain"]/div[1]/div[2]/button[3]/span
+#   名称输入框
+   newname : //*[@id="depotMain"]/div[3]/div/div[2]/form/div[2]/div/div/input
+#   电话输入框
+   phone : //*[@id="depotMain"]/div[3]/div/div[2]/form/div[3]/div/div[1]/input
+#   部门下拉框
+   choixce1 : //*[@id="depotMain"]/div[3]/div/div[2]/form/div[4]/div/div/div/input
+#   部门下拉框的值
+   choixce1value : /html/body/div[4]/div[1]/div[1]/ul/li[2]/span
+#   分类下拉框
+   choixce2 : //*[@id="depotMain"]/div[3]/div/div[2]/form/div[5]/div/div/div/input
+#   人员下拉框的值
+   choixce2value : el-cascader-node__label
+#   保存按钮
+   savecustomer : //*[@id="depotMain"]/div[3]/div/div[3]/button[1]/span
+#   取消（弹窗）
+   cancel: //*[@id="depotMain"]/div[3]/div/div[3]/button[2]/span
+   changecustomer : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[6]/div/div/i[1]
+   seachcustomer : //*[@id="depotMain"]/div[1]/div[1]/div/input
+   seach2 : //*[@id="depotMain"]/div[1]/div[1]/button/span
+   getcustomername : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[2]/div
+   getcustomerPage : //*[@id="depotMain"]/div[2]/div[2]/div/span[1]
+   deletecustomer : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr/td[6]/div/div/i[2]
+   deleteparmisnull : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/div/span
+   dodelete : //*[@id="depotMain"]/div[4]/div/div[3]/button[1]/span
+   businessadministration : //*[@id="app"]/div/section/section/div[1]/ul/div[1]/li/div/i
+   refresh : //*[@id="app"]/div/section/section/div[2]/div[1]/div/div/div[2]/div[1]/i
+   test111 : //*[@id="depotMain"]/div[2]/div[1]/div[2]/div/div[3]/table/tbody/tr[1]/td[3]/div
+
+

@@ -1,0 +1,19 @@
+#coding=UTF-8
+
+#基础设置
+- FundsManagement:
+   gongyingshang : //*[@id="receipt"]/div[2]/div[2]/div/div/input
+   data : //*[@id="receipt"]/div[2]/div[4]/div/input
+   account : //*[@id="receipt"]/div[2]/div[5]/div/div/input
+   money1 : //*[@id="receipt"]/div[3]/div[1]/div/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[4]
+   money : //*[@id="receipt"]/div[3]/div[1]/div/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[4]/div/div/input
+   zidonghexiao : //*[@id="receipt"]/div[3]/div[2]/button/span
+   save : //*[@id="receipt"]/div[1]/div[2]/div/button[2]/span
+   resh : //*[@id="app"]/div/section/section/div[2]/div[1]/div/div/div[2]/div[1]/i
+   hexiaomoney : //*[@id="receipt"]/div[3]/div[3]/div/div[3]/table/tbody/tr/td[9]/div/div/input
+   last : //*[@id="receipt"]/div[1]/div[1]/div/button[4]/span/span
+   change : //*[@id="receipt"]/div[1]/div[2]/div/button[1]/span
+   save1 : //*[@id="receipt"]/div[1]/div[2]/div/button[1]/span
+   delete : //*[@id="receipt"]/div[1]/div[2]/div/button[4]/span
+   dodelete : //*[@id="receipt"]/div[6]/div/div[3]/span/button[2]/span
+

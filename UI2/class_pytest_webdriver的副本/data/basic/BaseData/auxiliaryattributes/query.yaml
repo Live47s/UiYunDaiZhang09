@@ -1,0 +1,23 @@
+# coding=UTF-8
+#基础设置
+
+
+-
+#查询辅助属性
+  #模糊查询单个辅助属性
+  customerName: 单个模糊
+  legend: 模糊查询单个辅助属性成功
+#辅助属性编码断言
+  message: '0012'
+-
+  #精准查询单个辅助属性
+  #  辅助属性编码断言
+  customerName: 单个精准查询辅助属性
+  legend: 精准查询单个辅助属性成功
+  message: '0008'
+-
+  #批量模糊查询
+  customerName: 批量模糊查询
+  legend: 批量模糊查询成功
+#  已包含查询信息总条数断言
+  message: 共 3 条

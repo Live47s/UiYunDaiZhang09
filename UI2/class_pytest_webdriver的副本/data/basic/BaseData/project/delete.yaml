@@ -1,0 +1,11 @@
+# coding=UTF-8
+#基础设置
+
+
+-
+#删除项目
+  #模糊查询单个项目
+  customerName: UI自动化新增项目001
+  legend: 删除单个项目成功
+#项目编码断言
+  message: 暂无数据

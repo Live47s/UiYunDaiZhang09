@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jan 13 16:42:36 CST 2023","Fri Jan 13 16:42:53 CST 2023","16576","","test_case_fundsmanagement_paymentlist","TestCasepaymentlist","","","查询单据类型为收款单","基础设置-查询单据列表用例"
+"passed","Fri Jan 13 16:41:59 CST 2023","Fri Jan 13 16:42:10 CST 2023","11043","","test_case_fundsmanagement_paymentlist","TestCasepaymentlist","","","查询2023-01-04当天的单据列表成功","基础设置-查询单据列表用例"
+"passed","Fri Jan 13 16:41:48 CST 2023","Fri Jan 13 16:41:59 CST 2023","11192","","test_case_fundsmanagement_paymentlist","TestCasepaymentlist","","","查询2022-12-01到2023.01.05的单据列表成功","基础设置-查询单据列表用例"
+"passed","Fri Jan 13 16:43:15 CST 2023","Fri Jan 13 16:43:37 CST 2023","22098","","test_case_fundsmanagement_paymentlist","TestCasepaymentlist","","","查询客户和结账账户为""单个精准查询""","基础设置-查询单据列表用例"
+"passed","Fri Jan 13 16:42:19 CST 2023","Fri Jan 13 16:42:36 CST 2023","16613","","test_case_fundsmanagement_paymentlist","TestCasepaymentlist","","","查询单据类型为付款单","基础设置-查询单据列表用例"
+"passed","Fri Jan 13 16:42:10 CST 2023","Fri Jan 13 16:42:19 CST 2023","9139","","test_case_fundsmanagement_paymentlist","TestCasepaymentlist","","","开始日期大于结束日期，查询失败","基础设置-查询单据列表用例"
+"passed","Fri Jan 13 16:42:53 CST 2023","Fri Jan 13 16:43:15 CST 2023","22174","","test_case_fundsmanagement_paymentlist","TestCasepaymentlist","","","查询供应商和结账账户为""单个精准查询""","基础设置-查询单据列表用例"

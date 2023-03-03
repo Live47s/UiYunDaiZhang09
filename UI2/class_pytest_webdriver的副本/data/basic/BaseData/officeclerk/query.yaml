@@ -1,0 +1,23 @@
+# coding=UTF-8
+#基础设置
+
+#TODO
+-
+#查询人员
+  #模糊查询单个人员
+  customerName: 单个模糊
+  legend: 模糊查询单个人员成功
+#人员编码断言
+  message: '0004'
+-
+  #精准查询单个人员
+  #  人员编码断言
+  customerName: 单个精准查询
+  legend: 精准查询单个人员成功
+  message: '0008'
+-
+  #批量模糊查询
+  customerName: 批量模糊查询
+  legend: 批量模糊查询成功
+#  已包含查询信息总条数断言
+  message: 共 3 条

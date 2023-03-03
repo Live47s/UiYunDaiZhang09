@@ -1,0 +1,16 @@
+#coding=UTF-8
+
+#基础设置
+- FundsManagement:
+   startime : //*[@id="paymentList"]/div[1]/div[1]/div[1]/div[1]/div/div[1]/input
+   endtime : //*[@id="paymentList"]/div[1]/div[1]/div[1]/div[1]/div/div[2]/input
+   doseach : //*[@id="paymentList"]/div[1]/div[1]/div[2]/button/span
+   resh : //*[@id="app"]/div/section/section/div[2]/div[1]/div/div/div[2]/div[1]/i
+   number : //*[@id="paymentList"]/div[2]/div/div[2]/div/span[1]
+   paymentdate : //*[@id="paymentList"]/div[2]/div/div[1]/div[3]/table/tbody/tr[1]/td[2]/div/span
+   gongyingshang : //*[@id="paymentList"]/div[1]/div[1]/div[1]/div[3]/div/div/input
+   jiezhangzahnghu : //*[@id="paymentList"]/div[1]/div[1]/div[1]/div[5]/div/div[1]/input
+   jiezhangzahnghu1 : //*[@id="paymentList"]/div[2]/div/div[1]/div[3]/table/tbody/tr[1]/td[6]/div/span
+   customer : //*[@id="paymentList"]/div[1]/div[1]/div[1]/div[4]/div/div[1]/input
+   listtype : //*[@id="paymentList"]/div[1]/div[1]/div[1]/div[2]/div/div[1]/input
+   fukuandan : //*[@id="paymentList"]/div[2]/div/div[1]/div[3]/table/tbody/tr[1]/td[4]/div

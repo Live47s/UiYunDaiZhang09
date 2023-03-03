@@ -1,0 +1,11 @@
+# coding=UTF-8
+#基础设置
+#TODO
+
+-
+#删除人员
+  #模糊查询单个人员
+  customerName: UI自动化新增人员001
+  legend: 删除单个人员成功
+#人员编码断言
+  message: 暂无数据

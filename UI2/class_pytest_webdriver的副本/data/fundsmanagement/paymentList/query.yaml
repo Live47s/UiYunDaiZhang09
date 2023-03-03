@@ -1,0 +1,40 @@
+# coding=UTF-8
+#基础设置
+-
+#查询财务单据列表
+  #按时间区间查询
+  customerName: UI自动化查询单据001
+  legend: 查询2022-12-01到2023.01.05的单据列表成功
+#客户编码断言
+  message: '共 5 条'
+-
+  #查询指定单据日期
+  customerName: UI自动化查询单据002
+  legend: 查询2023-01-04当天的单据列表成功
+  message: '2023-01-04'
+-
+  #
+  #开始日期大于结束日期
+  customerName: UI自动化查询单据003
+  legend: 开始日期大于结束日期，查询失败
+  message: 开始日期大于结束日期
+-
+  #单据类型为付款单
+  customerName: UI自动化查询单据004
+  legend: 查询单据类型为付款单
+  message: '付款单'
+-
+  #单据类型为收款单
+  customerName: UI自动化查询单据005
+  legend: 查询单据类型为收款单
+  message: '收款单'
+-
+  #供应商和结账账户为"单个精准查询"
+  customerName: UI自动化查询单据006
+  legend: 查询供应商和结账账户为"单个精准查询"
+  message: 单个精准查询账户
+-
+  #客户和结账账户为"单个精准查询"
+  customerName: UI自动化查询单据007
+  legend: 查询客户和结账账户为"单个精准查询"
+  message: 单个精准查询账户

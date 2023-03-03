@@ -1,0 +1,15 @@
+# coding=UTF-8
+#基础设置
+
+
+-
+#修改存货名称
+  #修改存货成功
+  customerName: 修改存货数据
+  legend: 修改存货成功
+  message: 请求成功
+-
+  #修改存货失败，名称重复
+  customerName: 名称重复存货
+  legend: 修改存货失败，存货重复
+  message: 已存在相同名称的存货

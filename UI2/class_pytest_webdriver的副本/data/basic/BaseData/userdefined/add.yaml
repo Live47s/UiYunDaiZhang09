@@ -1,0 +1,8 @@
+# coding=UTF-8
+#基础设置
+-
+#增加自定义数据
+  #增加自定义数据成功
+  customerName: UI自动化新增自定义数据001
+  legend: 增加自定义数据成功
+  message: 请求成功

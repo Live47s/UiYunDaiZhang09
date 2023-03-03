@@ -1,0 +1,65 @@
+#coding=UTF-8
+#登录
+
+#基础设置
+- BasicSetting:
+
+#基础资料
+   basicsetting : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div/div/div/span
+   basedata : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div
+
+#   basedata : //*[@id="app"]/div/section/section/div[1]/div[1]/ul/div[8]/li/ul/li/ul/li[1]/span
+#   新增按钮
+   addnewcustomer : //*[@id="clientPriceSetting"]/div[1]/div[2]/button[2]/span
+#   新增名称输入位置
+   newcustomername : //*[@id="oneNewScheme"]/form/div[1]/div[2]/div/input
+#   选择价格类型
+   pricetype : //*[@id="oneNewScheme"]/form/div[2]/div[2]/div/div[1]/input
+#   展开下拉框选择 客户+存货
+   pricetype1 : /html/body/div[2]/div[1]/div[1]/ul/li[1]/span
+#   输入开始时间
+   startime : //*[@id="oneNewScheme"]/form/div[3]/div[2]/div/input
+#   输入结束时间
+   endtime : //*[@id="oneNewScheme"]/form/div[4]/div[2]/div/input
+#   下一步
+   next : //*[@id="addClientPrice"]/div[3]/button/span
+#   配置客户页面-添加
+   addcustomer : //*[@id="clientList"]/div[1]/div[2]/button[1]/span
+#   勾选框
+   chick : //*[@id="clientList"]/div[2]/div[2]/div[3]/table/tbody/tr[8]/td[1]/div/label/span/span
+#   确定按钮
+   dochick : //*[@id="clientList"]/div[4]/button[2]/span
+#   下一步
+   next1 : //*[@id="addClientPrice"]/div[3]/button[1]/span
+#   配置存货页面- 添加
+   addinventory : //*[@id="commodityList"]/div[1]/div[2]/button[1]/span
+#   失败勾选框
+   chick1 : //*[@id="commodityList"]/div[2]/div[2]/div[3]/table/tbody/tr[1]/td[1]/div/label/span/span
+#   成功勾选框
+   chick2 : //*[@id="commodityList"]/div[2]/div[2]/div[3]/table/tbody/tr[9]/td[1]/div/label/span/span
+#   确定按钮
+   dochick2 : //*[@id="commodityList"]/div[4]/button[2]/span
+#  下一步
+   next2 : //*[@id="addClientPrice"]/div[3]/button[1]/span
+
+
+
+#   修改按钮
+   update : //*[@id="clientPriceSetting"]/div[2]/div[1]/div[3]/table/tbody/tr/td[8]/div/div/i[1]
+#   删除客户
+   delcus : //*[@id="clientList"]/div[2]/div/div[3]/table/tbody/tr/td[6]/div/div/i
+#   删除存货
+   delinven : //*[@id="commodityList"]/div[2]/div/div[3]/table/tbody/tr/td[7]/div/div/i
+
+#输入名称查询位置
+   seach: //*[@id="clientPriceSetting"]/div[1]/div[1]/div/input
+#   查询
+   doseach : //*[@id="clientPriceSetting"]/div[1]/div[1]/button/span
+#   删除按钮
+   delete : //*[@id="clientPriceSetting"]/div[2]/div[1]/div[3]/table/tbody/tr/td[8]/div/div/i[2]
+#   确认删除
+   dodelete : /html/body/div[2]/div/div[3]/button[2]/span
+#"共0条"
+   NULL1: //*[@id="clientPriceSetting"]/div[2]/div[2]/div/span[1]
+#   刷新
+   resh : //*[@id="app"]/div/section/section/div[2]/div[1]/div/div/div[2]/div[1]/i

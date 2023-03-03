@@ -1,0 +1,17 @@
+# coding=UTF-8
+#基础设置
+
+#TODO
+-
+#增加人员
+  #增加人员成功
+  customerName: UI自动化新增人员001
+  phone : 18888888888
+  legend: 增加人员成功
+  message: 请求成功
+-
+  #新增人员失败，手机号已存在
+  customerName: 手机号重复人员
+  phone : 15072865408
+  legend: 增加人员失败，用户名重复
+  message: 手机号码重复！

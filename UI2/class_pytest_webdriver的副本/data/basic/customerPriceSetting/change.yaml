@@ -1,0 +1,20 @@
+# coding=UTF-8
+#基础设置
+
+
+-
+#修改客户价格设置名称
+  #修改客户价格设置成功
+  customerName: "2022-12-20"
+  legend: 修改客户价格设置时间成功
+  message: 请求成功
+-
+  #修改客户价格设置失败，客户为空
+  customerName: 客户为空
+  legend: 修改为客户为空
+  message: 客户不能没有或者存货不能没有
+-
+  #修改客户价格设置失败，客户价格设置存货为空
+  customerName: 存货为空
+  legend: 修改为存货为空
+  message: 客户不能没有或者存货不能没有

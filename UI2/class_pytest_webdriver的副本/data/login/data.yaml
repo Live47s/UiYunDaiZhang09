@@ -1,0 +1,33 @@
+# coding=UTF-8
+#-
+#  #密码错误
+#  loginurl: http://enterprise.91yikuaiji.com:8756
+#  company: f0013
+#  username: admin
+#  pwd: Ydz123....
+#  expectedurl: http://enterprise.91yikuaiji.com:8756/
+#  legend: 用户名密码错误
+#  feature: 登录用例
+#  story: 测试用例
+#
+#-
+#  #账套号错误
+#  loginurl: http://enterprise.91yikuaiji.com:8756
+#  company: f00013
+#  username: admin
+#  pwd: Ydz123....
+#  expectedurl: http://enterprise.91yikuaiji.com:8756/
+#  legend: 账套号错误
+#  feature: 登录用例
+#  story: 测试用例
+-
+  #密码正确
+  loginurl: http://enterprise.91yikuaiji.com:8756
+  company: f0013
+  username: admin
+  pwd: Ydz123...
+  expectedurl: http://8.142.139.164:8086/?getTokenParams
+  legend: 登录成功
+  feature: 登录用例
+  story: 测试用例
+

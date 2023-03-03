@@ -1,0 +1,9 @@
+- log:
+   basicsetting : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div/div/div/span
+   basedata : //*[@id="app"]/div/section/section/div[1]/ul/li[8]/span/span/div
+   startime : //*[@id="operationlog"]/div[1]/div[1]/div[1]/div/div[1]/input
+   endtime : //*[@id="operationlog"]/div[1]/div[1]/div[1]/div/div[2]/input
+   input1 : //*[@id="operationlog"]/div[1]/div[1]/div[4]/div/input
+   seach : //*[@id="operationlog"]/div[1]/div[2]/button/span
+   number1 : //*[@id="operationlog"]/div[4]/div/span[1]
+   resh : //*[@id="app"]/div/section/section/div[2]/div[1]/div/div/div[2]/div[1]/i

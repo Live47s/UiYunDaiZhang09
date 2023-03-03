@@ -1,0 +1,37 @@
+#coding=UTF-8
+#存货价格页面
+- inventorypricesetting :
+#  查询输入框
+   seach : //*[@id="commodityPriceSetting"]/div[1]/div[1]/div[1]/div/input
+#  查询按钮
+   doseach : //*[@id="commodityPriceSetting"]/div[1]/div[1]/div[1]/button/span
+#  单个查询获取存货编号
+   number : //*[@id="commodityPriceSetting"]/div[2]/div[1]/div[3]/table/tbody/tr/td[2]/div
+#  批量查询获取条数
+   number1 : //*[@id="commodityPriceSetting"]/div[2]/div[2]/div/span[1]
+#  修改按钮
+   Update : //*[@id="commodityPriceSetting"]/div[2]/div[1]/div[3]/table/tbody/tr/td[11]/div/div/i
+#  采购价
+   UpdatePrice1 : //*[@id="commodityPriceSetting"]/div[3]/div/div[2]/div[1]/div/input
+#  销售价
+   UpdatePrice2 : //*[@id="commodityPriceSetting"]/div[3]/div/div[2]/div[2]/div/input
+#   保存
+   saveUpdate : //*[@id="commodityPriceSetting"]/div[3]/div/div[3]/button[1]/span
+#   全选复选框
+   checkbox : //*[@id="commodityPriceSetting"]/div[2]/div[1]/div[2]/table/thead/tr/th[1]/div/label/span/span
+#   批量修改
+   updateAll : //*[@id="commodityPriceSetting"]/div[1]/div[2]/button/span
+#   零售价下拉框
+   checkbox1 : //*[@id="commodityPriceSetting"]/div[2]/div[3]/div/div[2]/form/div[2]/div/div[1]
+   check1 : el-select-dropdown__item hover
+   check1v1 : body > div.el-select-dropdown.el-popper > div.el-scrollbar > div.el-select-dropdown__wrap.el-scrollbar__wrap > ul > li.el-select-dropdown__item.selected.hover > span
+#  采购价下拉框
+   checkbox2 : //*[@id="commodityPriceSetting"]/div[2]/div[3]/div/div[2]/form/div[2]/div/div[2]/div/input
+   check2 : /html/body/div[4]/div[1]/div[1]/ul/li[1]/span
+#  符号下拉框
+   checkbox3 : //*[@id="commodityPriceSetting"]/div[2]/div[3]/div/div[2]/form/div[2]/div/div[3]/div/input
+   check3 : /html/body/div[5]/div[1]/div[1]/ul/li[1]/span
+#  自定义输入框
+   inputprice : //*[@id="commodityPriceSetting"]/div[2]/div[3]/div/div[2]/form/div[2]/div/div[4]/input
+#   确认修改
+   doUpdate :  //*[@id="commodityPriceSetting"]/div[2]/div[3]/div/div[3]/button[1]/span
